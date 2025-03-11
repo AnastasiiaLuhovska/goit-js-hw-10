@@ -63,6 +63,8 @@ const getRestTime = ()=>{
   const restTime = userSelectedDate - Date.now()
   if (restTime <= 0){
     clearInterval(intervalID)
+    refs.button.disabled = false
+    refs.input.disabled = false
     return
   }
 
