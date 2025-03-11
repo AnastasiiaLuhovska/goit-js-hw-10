@@ -64,3 +64,26 @@ button {
   color: black;
   text-transform: uppercase;
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+fieldset{
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
